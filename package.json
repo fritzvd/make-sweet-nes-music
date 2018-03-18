@@ -1,0 +1,24 @@
+{
+  "name": "nessounds",
+  "version": "1.0.0",
+  "description": "using @emkay's nesly-sound",
+  "main": "index.js",
+  "dependencies": {
+    "nesly-sound": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index && cd ./build/ && nesasm start.s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritzvd/make-sweet-nes-music.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fritzvd/make-sweet-nes-music/issues"
+  },
+  "homepage": "https://github.com/fritzvd/make-sweet-nes-music#readme"
+}
